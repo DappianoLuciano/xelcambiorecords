@@ -1,20 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
+import { SmoothScroll } from "@/components/smooth-scroll";
+import Script from "next/script";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-inter",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-bebas",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Special Production Agency",
+  description: "Creative production agency specializing in special projects",
 };
 
 export default function RootLayout({
@@ -23,11 +27,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${inter.variable} ${bebasNeue.variable}`}>
+      <body className="font-sans">
+        <Script
+          src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"
+          strategy="beforeInteractive"
+        />
+        <SmoothScroll />
+        {children}
+      </body>
     </html>
   );
 }

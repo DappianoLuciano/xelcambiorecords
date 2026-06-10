@@ -1,9 +1,17 @@
+import { Header } from "@/components/header"
+import { HeroSection } from "@/components/hero-section"
+import { NoteSection } from "@/components/note-section"
+import { SmoothScroll } from "@/components/smooth-scroll"
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
-  );
+    <>
+      <SmoothScroll />
+      <Header />
+      <main>
+        <HeroSection />
+        <NoteSection />
+      </main>
+    </>
+  )
 }
