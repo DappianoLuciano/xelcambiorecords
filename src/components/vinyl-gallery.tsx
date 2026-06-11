@@ -96,10 +96,12 @@ export default function VinylGallery() {
     const realW = window.innerWidth;
     const realH = window.innerHeight;
 
-    // Siempre usar dimensiones reales del viewport
+    // Agregar offset significativo hacia abajo
+    const offsetTop = 50;
+
     setDiscPositions(
       POS.map((p) => ({
-        top:  Math.min((p.top / 100) * realH, realH - DISC - 4),
+        top:  Math.min(((p.top + offsetTop) / 100) * realH, realH - DISC - 4),
         left: Math.min((p.left / 100) * realW, realW - DISC - 4),
       }))
     );
