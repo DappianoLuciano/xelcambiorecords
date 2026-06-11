@@ -66,7 +66,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
           <p>
             Frente a la ex Cárcel de Caseros, una de las construcciones más emblemáticas de Parque Patricios, resulta difícil imaginar que detrás de uno de los portones cercanos funcione uno de los proyectos culturales independientes más singulares de la ciudad 'X el Cambio Records' construido por Mariano Urrutia y Melanie Robert. Abandonado desde principios de los años 2000, la ex cárcel sigue formando parte de la identidad visual e histórica del barrio.
           </p>
@@ -126,7 +126,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               Para comprender el significado de <i>'X el Cambio Records'</i> resulta necesario comprender también el territorio en el que se inserta.
             </p>
@@ -176,7 +176,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               La historia de 'X el Cambio Records' comenzó en 1998, cuando Mariano Urrutia decidió editar de manera independiente los materiales de su banda. En aquel momento, publicar un disco parecía una posibilidad reservada para quienes lograban acceder a una compañía discográfica. Sin embargo, comenzaba a abrirse una alternativa.
             </p>
@@ -222,7 +222,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               Entre los valores que atraviesan a 'X el Cambio Records', el trabajo ocupa un lugar central. Más que una actividad necesaria para sostener el proyecto, se presenta como una forma de entender la vida cotidiana y de relacionarse con el mundo. La producción de discos, la organización de recitales, la gestión del sello, la curaduría de la tienda, la creación del merch y las tareas que hacen posible el funcionamiento del espacio forman parte de una misma filosofía basada en la construcción constante.
             </p>
@@ -277,7 +277,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               Si el trabajo constituye uno de los valores centrales de 'X el Cambio Records', la concept store permite comprender cómo esa forma de entender el mundo se traduce en el espacio.
             </p>
@@ -345,7 +345,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               Entre las muchas ideas que atraviesan a 'X el Cambio Records', hay una que aparece de manera especialmente significativa: el valor de los objetos.
             </p>
@@ -412,7 +412,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               A diferencia de muchos proyectos culturales contemporáneos, el crecimiento de <i>'X el Cambio Records'</i> no parece haberse construido a partir de estrategias de exposición o búsqueda constante de visibilidad.
             </p>
@@ -474,7 +474,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: '"Neue Montreal", sans-serif', fontWeight: 500, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
             <p>
               Después de recorrer el espacio, escuchar sus historias y observar su funcionamiento cotidiano, resulta a poco definir a <i>'X el Cambio Records'</i> como una disquería, una concept store o un sello independiente.
             </p>

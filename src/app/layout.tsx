@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Bebas_Neue } from "next/font/google";
+import { Inter, Bebas_Neue, Questrial } from "next/font/google";
 import "./globals.css";
 import { SmoothScroll } from "@/components/smooth-scroll";
 import Script from "next/script";
@@ -14,6 +14,12 @@ const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-bebas",
+});
+
+const questrial = Questrial({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-questrial",
 });
 
 export const metadata: Metadata = {
@@ -33,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${bebasNeue.variable}`}>
+    <html lang="en" className={`${inter.variable} ${bebasNeue.variable} ${questrial.variable}`}>
       <body className="font-sans">
         <Script
           src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"
