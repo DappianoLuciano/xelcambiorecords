@@ -91,14 +91,14 @@ export default function VinylGallery() {
     }))
   );
 
-  // Ajustar posiciones SOLO para viewport 1728×1117
+  // Ajustar posiciones SOLO para viewport 1512×359
   useEffect(() => {
     console.log('Viewport actual:', window.innerWidth, 'x', window.innerHeight);
 
-    // Usar aproximación en lugar de valores exactos
+    // Detectar viewport 1512×359
     const isSpecialViewport =
-      window.innerWidth >= 1720 && window.innerWidth <= 1735 &&
-      window.innerHeight >= 1110 && window.innerHeight <= 1125;
+      window.innerWidth >= 1505 && window.innerWidth <= 1520 &&
+      window.innerHeight >= 350 && window.innerHeight <= 370;
 
     console.log('Es viewport especial?', isSpecialViewport);
 
