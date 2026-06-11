@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="bg-[#FF7600] px-6 py-12 md:px-12 md:py-16">
       <div className="max-w-[1400px] 2xl:max-w-[1700px] mx-auto">
-        <h3 className="text-black font-bold text-lg mb-6">Fuentes</h3>
+        <h3 className="text-black text-5xl mb-6 tracking-tighter" style={{ fontFamily: 'var(--font-bebas)' }}>FUENTES</h3>
         <div className="space-y-3 text-black text-sm leading-relaxed">
           <p>
             Gobierno de la Ciudad Autónoma de Buenos Aires. (s.f.). Distrito Tecnológico. Recuperado de{" "}

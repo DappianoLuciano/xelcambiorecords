@@ -51,7 +51,7 @@ export function NoteSection() {
     <section className="min-h-screen bg-white px-6 py-20 md:px-12 md:py-32 pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1700px] mx-auto space-y-32">
         {/* Primera sección: Cultura del Ruido */}
-        <div ref={(el) => { sectionsRef.current[0] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[0] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -66,7 +66,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
           <p>
             Frente a la ex Cárcel de Caseros, una de las construcciones más emblemáticas de Parque Patricios, resulta difícil imaginar que detrás de uno de los portones cercanos funcione uno de los proyectos culturales independientes más singulares de la ciudad 'X el Cambio Records' construido por Mariano Urrutia y Melanie Robert. Abandonado desde principios de los años 2000, la ex cárcel sigue formando parte de la identidad visual e histórica del barrio.
           </p>
@@ -93,7 +93,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 3: Dos imágenes apiladas verticalmente (centradas) */}
-          <div className="hidden lg:flex flex-col gap-8 self-center">
+          <div className="hidden lg:flex flex-col gap-8 self-center 2xl:ml-auto 2xl:mr-0">
             <img
               src="/images/IMG_0454.jpg.jpeg"
               alt="Ex Cárcel de Caseros, Parque Patricios"
@@ -110,7 +110,7 @@ export function NoteSection() {
         </div>
 
         {/* Segunda sección: Un barrio construido alrededor del trabajo */}
-        <div ref={(el) => { sectionsRef.current[1] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[1] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -126,7 +126,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               Para comprender el significado de <i>'X el Cambio Records'</i> resulta necesario comprender también el territorio en el que se inserta.
             </p>
@@ -160,7 +160,7 @@ export function NoteSection() {
         </div>
 
         {/* Tercera sección: Una historia construida desde el hacer */}
-        <div ref={(el) => { sectionsRef.current[2] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[2] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -176,7 +176,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               La historia de 'X el Cambio Records' comenzó en 1998, cuando Mariano Urrutia decidió editar de manera independiente los materiales de su banda. En aquel momento, publicar un disco parecía una posibilidad reservada para quienes lograban acceder a una compañía discográfica. Sin embargo, comenzaba a abrirse una alternativa.
             </p>
@@ -206,7 +206,7 @@ export function NoteSection() {
         </div>
 
         {/* Cuarta sección: La cultura del trabajo como filosofía */}
-        <div ref={(el) => { sectionsRef.current[3] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[3] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -222,7 +222,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               Entre los valores que atraviesan a 'X el Cambio Records', el trabajo ocupa un lugar central. Más que una actividad necesaria para sostener el proyecto, se presenta como una forma de entender la vida cotidiana y de relacionarse con el mundo. La producción de discos, la organización de recitales, la gestión del sello, la curaduría de la tienda, la creación del merch y las tareas que hacen posible el funcionamiento del espacio forman parte de una misma filosofía basada en la construcción constante.
             </p>
@@ -245,7 +245,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 3: Dos imágenes apiladas verticalmente (centradas) */}
-          <div className="hidden lg:flex flex-col gap-8 self-center">
+          <div className="hidden lg:flex flex-col gap-8 self-center 2xl:ml-auto 2xl:mr-0">
             <img
               src="/images/IMG_9422.jpg.jpeg"
               alt="La cultura del trabajo"
@@ -262,7 +262,7 @@ export function NoteSection() {
         </div>
 
         {/* Quinta sección: La habitación hecha espacio */}
-        <div ref={(el) => { sectionsRef.current[4] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[4] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -277,7 +277,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               Si el trabajo constituye uno de los valores centrales de 'X el Cambio Records', la concept store permite comprender cómo esa forma de entender el mundo se traduce en el espacio.
             </p>
@@ -312,7 +312,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 3: Dos imágenes apiladas verticalmente (centradas) */}
-          <div className="hidden lg:flex flex-col gap-8 self-center">
+          <div className="hidden lg:flex flex-col gap-8 self-center 2xl:ml-auto 2xl:mr-0">
             <img
               src="/images/IMG_0462.jpg.jpeg"
               alt="La habitación hecha espacio"
@@ -329,7 +329,7 @@ export function NoteSection() {
         </div>
 
         {/* Sexta sección: Objetos para cuidar en un mundo efímero */}
-        <div ref={(el) => { sectionsRef.current[5] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[5] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -345,7 +345,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               Entre las muchas ideas que atraviesan a 'X el Cambio Records', hay una que aparece de manera especialmente significativa: el valor de los objetos.
             </p>
@@ -380,7 +380,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 3: Dos imágenes apiladas verticalmente (centradas) */}
-          <div className="hidden lg:flex flex-col gap-8 self-center">
+          <div className="hidden lg:flex flex-col gap-8 self-center 2xl:ml-auto 2xl:mr-0">
             <img
               src="/images/IMG_0402.jpg.jpeg"
               alt="Objetos para cuidar en un mundo efímero"
@@ -397,7 +397,7 @@ export function NoteSection() {
         </div>
 
         {/* Séptima sección: Comunidad antes que audiencia */}
-        <div ref={(el) => { sectionsRef.current[6] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[6] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -412,7 +412,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               A diferencia de muchos proyectos culturales contemporáneos, el crecimiento de <i>'X el Cambio Records'</i> no parece haberse construido a partir de estrategias de exposición o búsqueda constante de visibilidad.
             </p>
@@ -443,7 +443,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 3: Dos imágenes apiladas verticalmente (centradas) */}
-          <div className="hidden lg:flex flex-col gap-8 self-center">
+          <div className="hidden lg:flex flex-col gap-8 self-center 2xl:ml-auto 2xl:mr-0">
             <img
               src="/images/IMG_0430.jpg.jpeg"
               alt="Comunidad antes que audiencia"
@@ -460,7 +460,7 @@ export function NoteSection() {
         </div>
 
         {/* Octava sección: Resistencia silenciosa */}
-        <div ref={(el) => { sectionsRef.current[7] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-20 items-start justify-center">
+        <div ref={(el) => { sectionsRef.current[7] = el }} className="grid grid-cols-1 xl:grid-cols-[240px_minmax(450px,600px)_240px] 2xl:grid-cols-[320px_minmax(550px,800px)_320px] gap-8 xl:gap-12 2xl:gap-32 items-start justify-center">
           {/* Columna 1: Título brutalist editorial */}
           <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
@@ -474,7 +474,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 2: Texto del párrafo */}
-          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '0.9rem' }}>
+          <div className="space-y-6 leading-relaxed tracking-normal text-black" style={{ fontFamily: 'var(--font-questrial), sans-serif', fontWeight: 400, fontSize: '1rem' }}>
             <p>
               Después de recorrer el espacio, escuchar sus historias y observar su funcionamiento cotidiano, resulta a poco definir a <i>'X el Cambio Records'</i> como una disquería, una concept store o un sello independiente.
             </p>
@@ -541,7 +541,7 @@ export function NoteSection() {
           </div>
 
           {/* Columna 3: Dos imágenes apiladas verticalmente (centradas) */}
-          <div className="hidden lg:flex flex-col gap-8 self-center">
+          <div className="hidden lg:flex flex-col gap-8 self-center 2xl:ml-auto 2xl:mr-0">
             <img
               src="/images/IMG_0453.jpg.jpeg"
               alt="Resistencia silenciosa"
