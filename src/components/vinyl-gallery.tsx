@@ -95,8 +95,8 @@ export default function VinylGallery() {
   useEffect(() => {
     const isSpecialViewport = window.innerWidth === 1728 && window.innerHeight === 1117;
     if (isSpecialViewport) {
-      const offsetLeft = 8;
-      const offsetTop = 8;
+      const offsetLeft = 18;
+      const offsetTop = 18;
       setDiscPositions(
         POS.map((p) => ({
           top:  Math.min(((p.top + offsetTop) / 100) * H, H - DISC - 4),
