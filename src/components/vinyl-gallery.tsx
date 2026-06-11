@@ -93,9 +93,19 @@ export default function VinylGallery() {
 
   // Ajustar posiciones SOLO para viewport 1728×1117
   useEffect(() => {
-    if (window.innerWidth === 1728 && window.innerHeight === 1117) {
+    console.log('Viewport actual:', window.innerWidth, 'x', window.innerHeight);
+
+    // Usar aproximación en lugar de valores exactos
+    const isSpecialViewport =
+      window.innerWidth >= 1720 && window.innerWidth <= 1735 &&
+      window.innerHeight >= 1110 && window.innerHeight <= 1125;
+
+    console.log('Es viewport especial?', isSpecialViewport);
+
+    if (isSpecialViewport) {
       const offsetLeft = 35;
       const offsetTop = 35;
+      console.log('Aplicando offset de', offsetLeft, offsetTop);
       setDiscPositions(
         POS.map((p) => ({
           top:  Math.min(((p.top + offsetTop) / 100) * H, H - DISC - 4),
