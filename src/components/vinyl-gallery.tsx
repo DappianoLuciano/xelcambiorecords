@@ -84,17 +84,27 @@ export default function VinylGallery() {
   const DISC = 110;
 
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
-  const [discPositions, setDiscPositions] = useState<DiscState[]>(() => {
-    // Detectar viewport específico 1728×1117
-    const isSpecialViewport = window.innerWidth === 1728 && window.innerHeight === 1117;
-    const offsetLeft = isSpecialViewport ? 3 : 0;
-    const offsetTop = isSpecialViewport ? 3 : 0;
+  const [discPositions, setDiscPositions] = useState<DiscState[]>(() =>
+    POS.map((p) => ({
+      top:  Math.min((p.top / 100) * H, H - DISC - 4),
+      left: Math.min((p.left / 100) * W, W - DISC - 4),
+    }))
+  );
 
-    return POS.map((p) => ({
-      top:  Math.min(((p.top + offsetTop) / 100) * H, H - DISC - 4),
-      left: Math.min(((p.left + offsetLeft) / 100) * W, W - DISC - 4),
-    }));
-  });
+  // Ajustar posiciones para viewport específico
+  useEffect(() => {
+    const isSpecialViewport = window.innerWidth === 1728 && window.innerHeight === 1117;
+    if (isSpecialViewport) {
+      const offsetLeft = 3;
+      const offsetTop = 3;
+      setDiscPositions(
+        POS.map((p) => ({
+          top:  Math.min(((p.top + offsetTop) / 100) * H, H - DISC - 4),
+          left: Math.min(((p.left + offsetLeft) / 100) * W, W - DISC - 4),
+        }))
+      );
+    }
+  }, []);
 
   const tX          = useRef(0);
   const tY          = useRef(0);
