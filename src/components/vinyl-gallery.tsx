@@ -378,6 +378,27 @@ export default function VinylGallery() {
         </div>
       </div>
 
+      {/* afiche arrastra - izquierda */}
+      <div style={{
+        position: "absolute",
+        left: "5%",
+        top: "35%",
+        transform: "translateY(-50%) rotate(-8deg)",
+        zIndex: 10,
+        pointerEvents: "none",
+      }}>
+        <img
+          src="/images/afiche-arrastra.png"
+          alt="Tu vinilo arrastra"
+          style={{
+            width: "clamp(150px, 15vw, 250px)",
+            height: "auto",
+            boxShadow: "0 8px 32px rgba(0,0,0,0.6)",
+            filter: "drop-shadow(0 4px 12px rgba(0,0,0,0.5))",
+          }}
+        />
+      </div>
+
       {/* cerrar */}
       {activeIdx !== null && (
         <button onClick={closeDisc} style={{
