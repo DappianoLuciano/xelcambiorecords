@@ -49,13 +49,13 @@ export function NoteSection() {
 
   return (
     <section className="min-h-screen bg-white px-6 py-20 md:px-12 md:py-32 pb-40">
-      <div className="max-w-[1600px] mx-auto space-y-32">
+      <div className="max-w-[1400px] mx-auto space-y-32">
         {/* Primera sección: Cultura del Ruido */}
-        <div ref={(el) => { sectionsRef.current[0] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[0] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -110,11 +110,11 @@ export function NoteSection() {
         </div>
 
         {/* Segunda sección: Un barrio construido alrededor del trabajo */}
-        <div ref={(el) => { sectionsRef.current[1] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[1] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -160,11 +160,11 @@ export function NoteSection() {
         </div>
 
         {/* Tercera sección: Una historia construida desde el hacer */}
-        <div ref={(el) => { sectionsRef.current[2] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[2] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -206,11 +206,11 @@ export function NoteSection() {
         </div>
 
         {/* Cuarta sección: La cultura del trabajo como filosofía */}
-        <div ref={(el) => { sectionsRef.current[3] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[3] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -262,11 +262,11 @@ export function NoteSection() {
         </div>
 
         {/* Quinta sección: La habitación hecha espacio */}
-        <div ref={(el) => { sectionsRef.current[4] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[4] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -329,11 +329,11 @@ export function NoteSection() {
         </div>
 
         {/* Sexta sección: Objetos para cuidar en un mundo efímero */}
-        <div ref={(el) => { sectionsRef.current[5] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[5] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -397,11 +397,11 @@ export function NoteSection() {
         </div>
 
         {/* Séptima sección: Comunidad antes que audiencia */}
-        <div ref={(el) => { sectionsRef.current[6] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[6] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
@@ -460,11 +460,11 @@ export function NoteSection() {
         </div>
 
         {/* Octava sección: Resistencia silenciosa */}
-        <div ref={(el) => { sectionsRef.current[7] = el }} className="grid grid-cols-1 lg:grid-cols-[280px_minmax(500px,700px)_320px] gap-16 items-start justify-end">
+        <div ref={(el) => { sectionsRef.current[7] = el }} className="grid grid-cols-1 lg:xl:grid-cols-[240px_minmax(450px,600px)_280px] gap-8 xl:gap-12 items-start justify-end">
           {/* Columna 1: Título brutalist editorial */}
-          <div className="block uppercase text-[#FF5A1F] self-start lg:-ml-20 mb-8 lg:mb-0" style={{
+          <div className="block uppercase text-[#FF5A1F] self-start xl:-ml-12 mb-8 xl:mb-0" style={{
             fontFamily: 'var(--font-bebas)',
-            fontSize: 'clamp(3.5rem, 9vw, 8rem)',
+            fontSize: 'clamp(2.5rem, 7vw, 5rem)',
             lineHeight: '0.82',
             letterSpacing: '-0.03em',
             fontWeight: 400
