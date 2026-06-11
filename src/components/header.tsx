@@ -35,7 +35,8 @@ export function Header() {
       <nav className="flex items-center justify-between relative">
         <Link
           href="/"
-          className="text-sm font-medium tracking-wider hover:opacity-70 transition-opacity"
+          className="font-medium tracking-wider hover:opacity-70 transition-opacity"
+          style={{ fontSize: '0.6rem' }}
         >
           ARCHIVO FOTOGRAFICO
         </Link>
