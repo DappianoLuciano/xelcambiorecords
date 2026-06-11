@@ -496,7 +496,7 @@ export function NoteSection() {
             </p>
 
             <p>
-              Una forma de construir comunidad.
+              Una forma de construir comunidad desde un bajo perfil hasta el anonimato.
             </p>
 
             <p>
