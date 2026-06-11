@@ -96,8 +96,8 @@ export default function VinylGallery() {
     const realW = window.innerWidth;
     const realH = window.innerHeight;
 
-    // Agregar offset significativo hacia abajo
-    const offsetTop = 50;
+    // Agregar offset hacia arriba
+    const offsetTop = 25;
 
     setDiscPositions(
       POS.map((p) => ({
