@@ -79,22 +79,21 @@ interface DiscState {
 }
 
 export default function VinylGallery() {
-  const W    = 1366;
-  const H    = 768;
+  const W = 1366;
+  const H = 768;
   const DISC = 110;
 
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
   const [discPositions, setDiscPositions] = useState<DiscState[]>(() =>
     POS.map((p) => ({
-      top:  Math.min((p.top / 100) * H, H - DISC - 4),
-      left: Math.min((p.left / 100) * W, W - DISC - 4),
+      top:  Math.min((p.top / 100) * 768, 768 - 110 - 4),
+      left: Math.min((p.left / 100) * 1366, 1366 - 110 - 4),
     }))
   );
 
-  // Ajustar posiciones para viewport específico
+  // Ajustar posiciones SOLO para viewport 1728×1117
   useEffect(() => {
-    const isSpecialViewport = window.innerWidth === 1728 && window.innerHeight === 1117;
-    if (isSpecialViewport) {
+    if (window.innerWidth === 1728 && window.innerHeight === 1117) {
       const offsetLeft = 18;
       const offsetTop = 18;
       setDiscPositions(
